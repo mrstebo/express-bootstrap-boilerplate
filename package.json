@@ -1,0 +1,39 @@
+{
+  "name": "express-bootstrap-boilerplate",
+  "version": "1.0.0",
+  "description": "An example of adding bootstrap to your node express app",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "./node_modules/.bin/nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrstebo/express-bootstrap-boilerplate.git"
+  },
+  "keywords": [
+    "express",
+    "bootstrap",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Steven Atkinson",
+    "email": "mrstebouk@gmail.com",
+    "url": "http://mrstebo.co.uk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrstebo/express-bootstrap-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mrstebo/express-bootstrap-boilerplate#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "morgan": "^1.8.2"
+  }
+}
